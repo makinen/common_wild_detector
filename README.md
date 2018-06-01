@@ -12,5 +12,5 @@ emphasizes green hue and makes the color difference of weeds and background larg
 
 An example of a segmented common wild oat:
 
-[](raw.png)
-[](segmented.png)
+![a common wild oat](original.png)
+![a segmented common wild oat](segmented.png)
