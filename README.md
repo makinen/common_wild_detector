@@ -1,4 +1,4 @@
-A script which detects common wild oats from aerial images of oat fields.
+A Python script which detects common wild oats from aerial images of oat fields.
 The algorithm is based on region growing which adds to the growing region its 
 neighbour pixels if they satisfy a membership criterion.
 
@@ -10,7 +10,10 @@ it possible to classify the grown regions into different species according to th
 Before growing the images are preprocessed with principal component analysis which 
 emphasizes green hue and makes the color difference of weeds and background larger.
 
-An example of a segmented common wild oat:
+An example of a common wild oat and a segmented region including the plant: 
 
 ![a common wild oat](original.png)
+
+
+
 ![a segmented common wild oat](segmented.png)
