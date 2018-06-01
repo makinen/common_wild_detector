@@ -9,3 +9,8 @@ it possible to classify the grown regions into different species according to th
 
 Before growing the images are preprocessed with principal component analysis which 
 emphasizes green hue and makes the color difference of weeds and background larger.
+
+An example of a segmented common wild oat:
+
+[](raw.png)
+[](segmented.png)
