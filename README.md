@@ -6,7 +6,7 @@ The membership criterion applied minimizes the width of the region and maximizes
 It guides the growing process to advance along the culm of a plant and makes
 it possible to classify the plants into different species according to their length.
 
-Before growing, the images are preprocessed with PCA and the color difference of weeds and background is emphasized.
+Before growing, the images are preprocessed with PCA and the color difference of the weeds and background is emphasized.
 
 An example of a common wild oat and a segmented region including the plant: 
 
