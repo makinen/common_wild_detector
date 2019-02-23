@@ -4,10 +4,9 @@ to the growing region until a membership criterion is satisfied.
 
 The membership criterion applied minimizes the width of the region and maximizes its intensity.
 It guides the growing process to advance along the culm of a plant and makes
-it possible to classify the grown regions into different species according to their length.
+it possible to classify the plants into different species according to their length.
 
-Before growing the images are preprocessed with principal component analysis and the 
-green hue is emphasized. This makes color difference of weeds and background larger.
+Before growing, the images are preprocessed with PCA and the color difference of weeds and background is emphasized.
 
 An example of a common wild oat and a segmented region including the plant: 
 
