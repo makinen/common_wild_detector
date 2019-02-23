@@ -1,14 +1,13 @@
 A Python script which detects common wild oats from aerial images of oat fields.
-The algorithm is based on region growing which adds to the growing region its 
-neighbour pixels if they satisfy a membership criterion.
+The algorithm is based on region growing which adds neighbour pixels
+to the growing region until a membership criterion is satisfied.
 
-The membership criterion needed to segment common wild oats minimizes the width of a
-region and maximizes the intensity of pixels with certain weights. It guides the
-algorithm to grow the region along the culm of a plant as far as possible and makes
-it possible to classify the grown regions into different species according to their lenght.
+The membership criterion applied minimizes the width of the region and maximizes its intensity.
+It guides the growing process to advance along the culm of a plant and makes
+it possible to classify the grown regions into different species according to their length.
 
-Before growing the images are preprocessed with principal component analysis which 
-emphasizes green hue and makes the color difference of weeds and background larger.
+Before growing the images are preprocessed with principal component analysis and the 
+green hue is emphasized. This makes color difference of weeds and background larger.
 
 An example of a common wild oat and a segmented region including the plant: 
 
